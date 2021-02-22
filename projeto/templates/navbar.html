@@ -1,0 +1,83 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TudoSobreSolar.com.br</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+<!-- INICIO NAVBAR -->
+<nav class="bg-gray-100 text-gray-700">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center">
+            <div class="flex space-x-4">
+                <!-- LOGO -->
+                <div>
+                    <a href="#" class="flex items-center py-4 px-3 hover:text-gray-900">
+                        <svg class="h-8 w-8 mr-1 text-colora" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                          </svg>
+                          <span class="text-lg"><span class="font-bold">tudo</span>sobre<span class="font-bold">solar</span></span>
+                    </a>
+                </div>
+
+
+
+                <!-- MENU PRINCIPAL -->
+                <div class="hidden md:flex items-center text-sm space-x-1">
+                    <a href="#" class="py-4 px-3 hover:bg-gray-200 rounded">Artigos</a>
+                    <a href="#" class="py-4 px-3 hover:bg-gray-200 rounded">Calculadora Solar</a>
+                    <a href="#" class="py-4 px-3 hover:bg-gray-200 rounded">Investimentos</a>
+                    <a href="#" class="py-4 px-3 hover:bg-gray-200 rounded">Cursos</a>
+                </div>
+
+
+            </div>
+
+
+            <!-- MENU DE BUSCA E CALL TO ACTION -->
+            <div class="hidden md:flex items-center space-x-8">
+                <div class="hidden lg:block relative mx-auto text-gray-600 ">
+                    <input type="text" class="w-24 lg:w-48 px-4 py-2 leading-tight text-sm text-gray-700 bg-white rounded-md placeholder-gray-500 border border-transparent focus:outline-none focus:bg-white focus:shadow-outline focus:border-colora" placeholder="Buscar" aria-label="Search">
+                    <button type="submit" class="absolute right-0 top-0 mt-3 mr-4 ">
+                        <svg class="w-4 h-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                          </svg>
+                    </button>
+                </div>
+                  <a href="#" class="py-3 px-3 bg-colora text-white text-sm font-bold rounded hover:bg-colorc transition duration-300">Quero Comprar</a>
+            </div>
+
+            <!-- BOTAO MENU MOBILE -->
+            <div class="md:hidden flex items-center">
+                <button id="menu-button">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- MENU MOBILE -->
+    <div class="hidden" id="menu-mobile">
+        <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Artigos</a>
+        <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Calculadora Solar</a>
+        <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Investimentos</a>
+        <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Cursos</a>
+    </div>
+
+</nav>
+
+    <div class="py-32 text-center">
+        <h2 class="font-extrabold text-4xl">Baldekicker is borning</h2>
+    </div>
+
+
+    <script src="navbar.js"></script>
+</body>
+</html>

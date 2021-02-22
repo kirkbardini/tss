@@ -13,11 +13,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#ff6363',
-        secondary: {
-          100: '#e2e2d5',
-          200: '888883',
-        }
+        colora: '#FFB310',
+        colorb: '#6F684E',
+        colorc: '#FA0026',
+        colord: '#42361E',
       },
       fontFamily: {
         kirk: ['Nunito']
