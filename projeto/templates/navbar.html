@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="../static/css/style.min.css">
 </head>
 
-<body>
+<body class="bg-gray-100">
 
+<header>
 <!-- INICIO NAVBAR -->
-<nav class="bg-gray-100 text-gray-700">
+<nav class="bg-white shadow text-gray-700">
     <div class="max-w-7xl mx-auto px-4">
         <div class="flex justify-between items-center">
             <div class="flex space-x-4">
@@ -25,16 +26,16 @@
                 </div>
                 <!-- MENU PRINCIPAL -->
                 <div class="hidden md:flex items-center text-sm space-x-1">
-                    <a href="#" class="py-4 px-3 hover:bg-gray-200 rounded">Artigos</a>
-                    <a href="#" class="py-4 px-3 hover:bg-gray-200 rounded">Calculadora Solar</a>
-                    <a href="#" class="py-4 px-3 hover:bg-gray-200 rounded">Investimentos</a>
-                    <a href="#" class="py-4 px-3 hover:bg-gray-200 rounded">Cursos</a>
+                    <a href="#" class="py-2 px-3 hover:bg-gray-200 hover:text-gray-900 rounded">Artigos</a>
+                    <a href="#" class="py-2 px-3 hover:bg-gray-200 hover:text-gray-900 rounded">Calculadora Solar</a>
+                    <a href="#" class="py-2 px-3 hover:bg-gray-200 hover:text-gray-900 rounded">Investimentos</a>
+                    <a href="#" class="py-2 px-3 hover:bg-gray-200 hover:text-gray-900 rounded">Cursos</a>
                 </div>
             </div>
             <!-- MENU DE BUSCA E CALL TO ACTION -->
             <div class="hidden md:flex items-center space-x-8">
                 <div class="hidden lg:block relative mx-auto text-gray-600 ">
-                    <input type="text" class="w-24 lg:w-48 px-4 py-2 leading-tight text-sm text-gray-700 bg-white rounded-md placeholder-gray-500 border border-transparent focus:outline-none focus:bg-white focus:shadow-outline focus:border-colora" placeholder="Buscar" aria-label="Search">
+                    <input type="text" class="w-24 lg:w-48 px-4 py-2 leading-tight text-sm text-gray-700 bg-white rounded-md placeholder-gray-500 border border-gray-200 focus:outline-none focus:bg-white focus:shadow-outline focus:border-colora" placeholder="Buscar" aria-label="Search">
                     <button type="submit" class="absolute right-0 top-0 mt-3 mr-4 ">
                         <svg class="w-4 h-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -54,18 +55,64 @@
         </div>
     </div>
     <!-- MENU MOBILE -->
-    <div class="hidden" id="menu-mobile">
+    <div class="hidden md:hidden" id="menu-mobile">
         <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Artigos</a>
         <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Calculadora Solar</a>
         <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Investimentos</a>
         <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Cursos</a>
     </div>
-
 </nav>
+</header>
 
-    <div class="py-32 text-center">
-        <h2 class="font-extrabold text-4xl">Baldekicker is borning</h2>
-    </div>
+<main>
+    <!-- CONTENT WRAPPER -->
+    <div class="max-w-7xl mt-6 mx-auto">
+
+        <!-- DESTAQUES -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-4">
+            <!-- DESTAQUE PRINCIPAL -->
+            <div class="bg-black rounded overflow-hidden shadow-md relative hover:shadow-lg md:col-span-2 lg:row-span-2">
+                <!-- Layer pra escurecer imagem -->
+
+                <div class="absolute left-0 bottom-0 w-full h-full"
+                style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.8));"></div>
+
+                <img src="../static/img/solar1.jpg" alt="solar" class="w-full h-96 object-cover">
+    
+                <div class="p-2 absolute top-1/2 mt-2 ml-2 md:mr-20">
+                    <span class="text-3xl text-white font-bold pl-1 z-20 inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
+                    <span class="hidden md:block text-lg text-white pl-1 z-20 inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
+                </div>
+
+
+            </div>
+
+             <!-- DESTAQUES SECUNDARIOS -->
+             <div class="bg-black rounded overflow-hidden shadow-md relative hover:shadow-lg">
+
+                <div class="absolute left-0 bottom-0 w-full h-full"
+                style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.8));"></div>
+
+                <img src="../static/img/solar2.jpg" alt="solar" class="w-full h-96 md:h-44 object-cover">
+    
+                <div class="p-2 absolute top-1/2 md:top-1/4 mt-2 ml-2 md:mr-20">
+                    <span class="text-3xl md:text-xl text-white font-bold pl-1 z-20 inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
+                </div>
+
+            </div>
+
+
+            <div class="bg-black rounded overflow-hidden shadow-md relative hover:shadow-lg">
+
+
+            </div>
+
+
+        </div>
+
+</main>
+
+    
 
 
     <script src="navbar.js"></script>
