@@ -4,7 +4,7 @@ module.exports = {
       purgeLayersByDefault: true,
   },
   purge: {
-      enabled: true, 
+      enabled: false, 
       content: [
           '../**/templates/*.html',
           '../**/templates/**/*.html'
@@ -18,8 +18,9 @@ module.exports = {
         colorc: '#FA0026',
         colord: '#42361E',
       },
-      fontFamily: {
-        kirk: ['Nunito']
+      gridRow: {
+        'span-7': 'span 7 / span 7',
+        'span-15': 'span 15 / span 15',
       }
     },
   },
