@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TudoSobreSolar.com.br</title>
-    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/style.min.css">
 </head>
 
 <body class="bg-gray-100">
@@ -17,7 +17,7 @@
             <div class="flex space-x-4">
                 <!-- LOGO -->
                 <div>
-                    <a href="#" class="flex items-center py-4 px-3 hover:text-gray-900">
+                    <a href="#" class="flex items-center py-4 pr-3 hover:text-gray-900">
                         <svg class="h-8 w-8 mr-1 text-colora" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                           </svg>
@@ -42,7 +42,7 @@
                           </svg>
                     </button>
                 </div>
-                  <a href="#" class="py-3 px-3 bg-colora text-white text-sm font-bold rounded hover:bg-colorc transition duration-300">Quero Comprar</a>
+                  <a href="#" class="py-3 px-3 bg-colora text-white text-sm font-bold rounded hover:bg-colord transition duration-300">Quero Comprar</a>
             </div>
             <!-- BOTAO MENU MOBILE -->
             <div class="md:hidden flex items-center">
@@ -66,59 +66,38 @@
 
 <main>
     <!-- CONTENT WRAPPER -->
-    <div class="max-w-7xl mt-6 mx-auto">
+    <div class="max-w-7xl mt-6 mx-auto px-2 md:px-4">
 
         <!-- DESTAQUES -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-4">
             <!-- DESTAQUE PRINCIPAL -->
-            <div class="bg-black rounded overflow-hidden shadow-md relative hover:shadow-lg md:col-span-2 lg:row-span-2">
-
-                <!-- Layer pra escurecer imagem -->
-                <div class="absolute left-0 bottom-0 w-full h-full"
-                style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.8));"></div>
-
-                <img src="../static/img/solar1.jpg" alt="solar" class="w-full h-96 object-cover">
-    
-                <div class="p-2 absolute top-1/2 mt-2 ml-2 md:mr-20">
-                    <span class="text-3xl text-white font-bold pl-1 z-20 inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
-                    <span class="hidden md:block text-lg text-white pl-1 z-20 inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
+            <div class="md:col-span-2 lg:row-span-2 bg-black bg-center bg-cover bg-no-repeat rounded overflow-hidden shadow-md cursor-pointer" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url('../static/img/solar1.jpg');">                
+                <div class="flex flex-wrap content-between h-96 pb-12 pt-8 px-4">
+                    <div class="py-1 w-32 bg-colord text-white text-xs uppercase font-bold text-center">notícias</div>
+                    <div>
+                        <span class="text-3xl text-white font-bold inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
+                        <span class="text-lg text-white inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
+                    </div>
                 </div>
             </div>
 
-             <!-- DESTAQUES SECUNDARIOS -->
-                <div class="bg-black rounded overflow-hidden shadow-md relative hover:shadow-lg">
-
-                    <div class="absolute left-0 bottom-0 w-full h-full"
-                    style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.8));"></div>
-
-                    <img src="../static/img/solar2.jpg" alt="solar" class="w-full h-48 md:h-44 object-cover">
-        
-                    <div class="p-2 absolute top-1/2 md:top-1/4 mt-2 ml-2 md:mr-20">
-                        <span class="text-3xl md:text-xl text-white font-bold pl-1 z-20 inline-block"></span>
-                    </div>
+            <!-- DESTAQUES SECUNDARIOS -->
+            <div class="bg-black bg-center bg-cover bg-no-repeat rounded overflow-hidden shadow-md" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('../static/img/solar2.jpg');">
+                <div class="flex flex-wrap content-between h-52 md:h-44 pt-4 pb-4 px-4">
+                    <div class="py-1 w-32 bg-colord text-white text-xs uppercase font-bold text-center">financiamento</div>
+                    <span class="text-xl text-white font-bold inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
                 </div>
+            </div>
 
-                <div class="bg-black rounded overflow-hidden shadow-md relative hover:shadow-lg">
-
-                    <div class="absolute left-0 bottom-0 w-full h-full"
-                    style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.8));"></div>
-
-                    <img src="../static/img/solar2.jpg" alt="solar" class="w-full h-48 md:h-44 object-cover">
-        
-                    <div class="p-2 absolute top-1/2 md:top-1/4 mt-2 ml-2 md:mr-20">
-                        <span class="text-3xl md:text-xl text-white font-bold pl-1 z-20 inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
-                    </div>
+            <div class="bg-black bg-center bg-cover bg-no-repeat rounded overflow-hidden shadow-md" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('../static/img/solar3.jpg');">  
+                <div class="flex flex-wrap content-between h-52 md:h-44 pt-4 pb-4 px-4">
+                    <div class="py-1 w-32 bg-colord text-white text-xs uppercase font-bold text-center">cursos</div>
+                    <span class="text-xl text-white font-bold inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
                 </div>
-
-
-
-
+            </div>
         </div>
-
+    </div>
 </main>
-
-    
-
 
     <script src="navbar.js"></script>
 </body>
