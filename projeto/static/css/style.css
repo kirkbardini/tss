@@ -11852,7 +11852,7 @@ video {
 }
 
 .h-heropost {
-  height: 480px;
+  height: 50vh;
 }
 
 .text-xs {
@@ -43194,7 +43194,7 @@ video {
   }
 
   .sm\:h-heropost {
-    height: 480px;
+    height: 50vh;
   }
 
   .sm\:text-xs {
@@ -74458,7 +74458,7 @@ video {
   }
 
   .md\:h-heropost {
-    height: 480px;
+    height: 50vh;
   }
 
   .md\:text-xs {
@@ -105722,7 +105722,7 @@ video {
   }
 
   .lg\:h-heropost {
-    height: 480px;
+    height: 50vh;
   }
 
   .lg\:text-xs {
@@ -136986,7 +136986,7 @@ video {
   }
 
   .xl\:h-heropost {
-    height: 480px;
+    height: 50vh;
   }
 
   .xl\:text-xs {
@@ -168250,7 +168250,7 @@ video {
   }
 
   .\32xl\:h-heropost {
-    height: 480px;
+    height: 50vh;
   }
 
   .\32xl\:text-xs {

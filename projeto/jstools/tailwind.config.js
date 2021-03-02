@@ -23,7 +23,7 @@ module.exports = {
         'span-15': 'span 15 / span 15',
       },
       height: {
-        heropost: '480px',
+        heropost: '50vh',
       }
     },
   },
