@@ -21,6 +21,9 @@ module.exports = {
       gridRow: {
         'span-7': 'span 7 / span 7',
         'span-15': 'span 15 / span 15',
+      },
+      height: {
+        heropost: '480px',
       }
     },
   },
