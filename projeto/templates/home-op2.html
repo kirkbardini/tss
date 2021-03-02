@@ -1,0 +1,459 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TudoSobreSolar.com.br</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body class="bg-gray-100">
+
+<header>
+<!-- INICIO NAVBAR -->
+<nav class="bg-white shadow text-gray-700">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center">
+            <div class="flex space-x-4">
+                <!-- LOGO -->
+                <div>
+                    <a href="#" class="flex items-center py-4 pr-3 hover:text-gray-900">
+                        <svg class="h-8 w-8 mr-1 text-colora" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                          </svg>
+                          <span class="text-lg"><span class="font-bold">tudo</span>sobre<span class="font-bold">solar</span></span>
+                    </a>
+                </div>
+                <!-- MENU PRINCIPAL -->
+                <div class="hidden md:flex items-center text-sm space-x-1">
+                    <a href="#" class="py-2 px-3 hover:bg-gray-200 hover:text-gray-900 rounded">Artigos</a>
+                    <a href="#" class="py-2 px-3 hover:bg-gray-200 hover:text-gray-900 rounded">Calculadora Solar</a>
+                    <a href="#" class="py-2 px-3 hover:bg-gray-200 hover:text-gray-900 rounded">Investimentos</a>
+                    <a href="#" class="py-2 px-3 hover:bg-gray-200 hover:text-gray-900 rounded">Cursos</a>
+                </div>
+            </div>
+            <!-- MENU DE BUSCA E CALL TO ACTION -->
+            <div class="hidden md:flex items-center space-x-8">
+                <!-- INPUT DE BUSCA -->
+                <div class="hidden lg:block relative mx-auto text-gray-600 ">
+                    <input type="text" class="w-24 lg:w-48 px-4 py-2 leading-tight text-sm text-gray-700 bg-white rounded-md placeholder-gray-500 border border-gray-200 focus:outline-none focus:bg-white focus:shadow-outline focus:border-colora" placeholder="Buscar" aria-label="Search">
+                    <button type="submit" class="absolute right-0 top-0 mt-3 mr-4 ">
+                        <svg class="w-4 h-4 text-gray-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                          </svg>
+                    </button>
+                </div>
+                <!-- INPUT DE BUSCA -->
+                <a href="#" class="py-3 px-3 bg-colora text-white text-sm font-bold rounded hover:bg-colord transition duration-300">Quero Comprar</a>
+            </div>
+            <!-- BOTAO MENU MOBILE -->
+            <div class="md:hidden flex items-center">
+                <button id="menu-button">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- MENU MOBILE -->
+    <div class="hidden md:hidden" id="menu-mobile">
+        <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Artigos</a>
+        <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Calculadora Solar</a>
+        <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Investimentos</a>
+        <a href="#" class="block py-2 px-8 text-sm hover:bg-gray-200">Cursos</a>
+    </div>
+</nav>
+<!-- FIM NAVBAR -->
+</header>
+
+<main>
+    <!-- CONTENT WRAPPER -->
+    <div class="max-w-7xl mt-6 mx-auto px-2 md:px-4">
+
+        <!-- DESTAQUES -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-4">
+            <!-- DESTAQUE PRINCIPAL -->
+            <div class="md:col-span-2 lg:row-span-2 bg-black bg-center bg-cover bg-no-repeat cursor-pointer" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../static/img/solar1.jpg');">                
+                <div class="flex flex-wrap content-between h-96 md:pb-12 pb-6 pt-8 px-4">
+                    <div class="py-1 w-32 bg-colord text-white text-xs uppercase font-bold text-center">categoria</div>
+                    <div>
+                        <span class="md:text-5xl text-3xl text-white font-medium inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
+                        <span class="text-lg text-white inline-block mt-4">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DESTAQUE SECUNDARIO 1-->
+            <div class="hidden md:block bg-black bg-center bg-cover bg-no-repeat cursor-pointer" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../static/img/solar2.jpg');">
+                <div class="flex flex-wrap content-between h-52 md:h-44 pt-4 pb-4 px-4">
+                    <div class="py-1 w-32 bg-colord text-white text-xs uppercase font-bold text-center">categoria</div>
+                    <span class="text-2xl text-white font-medium inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
+                </div>
+            </div>
+
+            <!-- DESTAQUE SECUNDARIO 2-->
+            <div class="hidden md:block bg-black bg-center bg-cover bg-no-repeat cursor-pointer" style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('../static/img/solar3.jpg');">  
+                <div class="flex flex-wrap content-between h-52 md:h-44 pt-4 pb-4 px-4">
+                    <div class="py-1 w-32 bg-colord text-white text-xs uppercase font-bold text-center">categoria</div>
+                    <span class="text-2xl text-white font-medium inline-block">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- INICIO CONTEÚDO -->
+        <div class="grid lg:grid-rows-13 lg:grid-cols-3 gap-4 mt-4">
+
+            <!-- QUADRO PRINCIPAL DE NOTICIAS -->
+            <div class="lg:col-span-2 md:row-span-10 text-gray-600 bg-white md:shadow">
+
+                <!-- NOTICIA 1 -->                
+                <div class="flex flex-wrap md:flex-nowrap pt-2 pb-3 px-2 md:py-4 border md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-200 hover:text-gray-900">
+                    <!-- NOTICIA 1 - COLUNA IMG -->
+                    <a href="#">
+                    <div class="flex flex-col md:block w-full md:w-64 md:mb-0 mb-2 flex-shrink-0 ">
+                        <img src="../static/img/solar2.jpg" class="w-full h-36 md:h-44 object-cover object-center">
+                    </div>
+                    <!-- NOTICIA 1 - COLUNA TEXTO -->
+                    <div class="md:flex-grow md:pl-6 md:pr-2">
+                        <span class="tracking-widest text-xs title-font font-medium text-white mb-1 bg-colora px-2 md:py-0.5">CATEGORIA</span>
+                        <span class="tracking-wide text-xs title-font font-medium text-gray-400 mb-1 pl-2">Publicado em 26/02/2021</span>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2 md:pt-2">Bitters hashtag waistcoat fashion axe </h2>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NOTICIA 2 -->    
+                <div class="flex flex-wrap md:flex-nowrap pt-2 pb-3 px-2 md:py-4 border md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-200 hover:text-gray-900">
+                    <!-- NOTICIA 2 - COLUNA IMG -->
+                    <a href="#">
+                    <div class="flex flex-col md:block w-full md:w-64 md:mb-0 mb-2 flex-shrink-0 ">
+                        <img src="../static/img/solar3.jpg" class="w-full h-36 md:h-44 object-cover object-center">
+                    </div>
+                    <!-- NOTICIA 2 - COLUNA TEXTO -->
+                    <div class="md:flex-grow md:pl-6 md:pr-2">
+                        <span class="tracking-widest text-xs title-font font-medium text-white mb-1 bg-colora px-2 md:py-0.5">CATEGORIA</span>
+                        <span class="tracking-wide text-xs title-font font-medium text-gray-400 mb-1 pl-2">Publicado em 26/02/2021</span>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2 md:pt-2">Bitters hashtag waistcoat fashion axe </h2>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NOTICIA 3 -->    
+                <div class="flex flex-wrap md:flex-nowrap pt-2 pb-3 px-2 md:py-4 border md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-200 hover:text-gray-900">
+                    <!-- NOTICIA 3 - COLUNA IMG -->
+                    <a href="#">
+                    <div class="flex flex-col md:block w-full md:w-64 md:mb-0 mb-2 flex-shrink-0 ">
+                        <img src="../static/img/solar4.jpg" class="w-full h-36 md:h-44 object-cover object-center">
+                    </div>
+                    <!-- NOTICIA 3 - COLUNA TEXTO -->
+                    <div class="md:flex-grow md:pl-6 md:pr-2">
+                        <span class="tracking-widest text-xs title-font font-medium text-white mb-1 bg-colora px-2 md:py-0.5">CATEGORIA</span>
+                        <span class="tracking-wide text-xs title-font font-medium text-gray-400 mb-1 pl-2">Publicado em 26/02/2021</span>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2 md:pt-2">Bitters hashtag waistcoat fashion axe </h2>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NOTICIA 4 -->    
+                <div class="flex flex-wrap md:flex-nowrap pt-2 pb-3 px-2 md:py-4 border md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-200 hover:text-gray-900">
+                    <!-- NOTICIA 4 - COLUNA IMG -->
+                    <a href="#">
+                    <div class="flex flex-col md:block w-full md:w-64 md:mb-0 mb-2 flex-shrink-0 ">
+                        <img src="../static/img/solar5.jpg" class="w-full h-36 md:h-44 object-cover object-center">
+                    </div>
+                    <!-- NOTICIA 4 - COLUNA TEXTO -->
+                    <div class="md:flex-grow md:pl-6 md:pr-2">
+                        <span class="tracking-widest text-xs title-font font-medium text-white mb-1 bg-colora px-2 md:py-0.5">CATEGORIA</span>
+                        <span class="tracking-wide text-xs title-font font-medium text-gray-400 mb-1 pl-2">Publicado em 26/02/2021</span>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2 md:pt-2">Bitters hashtag waistcoat fashion axe </h2>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NOTICIA 5 -->    
+                <div class="flex flex-wrap md:flex-nowrap pt-2 pb-3 px-2 mt-4 md:mt-0 md:py-4 bg-white border md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-200 hover:text-gray-900">
+                    <!-- NOTICIA 5 - COLUNA IMG -->
+                    <a href="#">
+                    <div class="flex flex-col md:block w-full md:w-64 md:mb-0 mb-2 flex-shrink-0 ">
+                        <img src="../static/img/solar6.jpg" class="w-full h-36 md:h-44 object-cover object-center">
+                    </div>
+                    <!-- NOTICIA 5 - COLUNA TEXTO -->
+                    <div class="md:flex-grow md:pl-6 md:pr-2">
+                        <span class="tracking-widest text-xs title-font font-medium text-white mb-1 bg-colora px-2 md:py-0.5">CATEGORIA</span>
+                        <span class="tracking-wide text-xs title-font font-medium text-gray-400 mb-1 pl-2">Publicado em 26/02/2021</span>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2 md:pt-2">Bitters hashtag waistcoat fashion axe </h2>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NOTICIA 6 -->    
+                <div class="flex flex-wrap md:flex-nowrap pt-2 pb-3 px-2 md:py-4 border md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-200 hover:text-gray-900">
+                    <!-- NOTICIA 6 - COLUNA IMG -->
+                    <a href="#">
+                    <div class="flex flex-col md:block w-full md:w-64 md:mb-0 mb-2 flex-shrink-0 ">
+                        <img src="../static/img/solar7.jpg" class="w-full h-36 md:h-44 object-cover object-center">
+                    </div>
+                    <!-- NOTICIA 6 - COLUNA TEXTO -->
+                    <div class="md:flex-grow md:pl-6 md:pr-2">
+                        <span class="tracking-widest text-xs title-font font-medium text-white mb-1 bg-colora px-2 md:py-0.5">CATEGORIA</span>
+                        <span class="tracking-wide text-xs title-font font-medium text-gray-400 mb-1 pl-2">Publicado em 26/02/2021</span>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2 md:pt-2">Bitters hashtag waistcoat fashion axe </h2>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NOTICIA 7 -->    
+                <div class="flex flex-wrap md:flex-nowrap pt-2 pb-3 px-2 md:py-4 border md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-200 hover:text-gray-900">
+                    <!-- NOTICIA 7 - COLUNA IMG -->
+                    <a href="#">
+                    <div class="flex flex-col md:block w-full md:w-64 md:mb-0 mb-2 flex-shrink-0 ">
+                        <img src="../static/img/solar2.jpg" class="w-full h-36 md:h-44 object-cover object-center">
+                    </div>
+                    <!-- NOTICIA 7 - COLUNA TEXTO -->
+                    <div class="md:flex-grow md:pl-6 md:pr-2">
+                        <span class="tracking-widest text-xs title-font font-medium text-white mb-1 bg-colora px-2 md:py-0.5">CATEGORIA</span>
+                        <span class="tracking-wide text-xs title-font font-medium text-gray-400 mb-1 pl-2">Publicado em 26/02/2021</span>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2 md:pt-2">Bitters hashtag waistcoat fashion axe </h2>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NOTICIA 8 -->    
+                <div class="flex flex-wrap md:flex-nowrap pt-2 pb-3 px-2 md:py-4 border md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-200 hover:text-gray-900">
+                    <!-- NOTICIA 8 - COLUNA IMG -->
+                    <a href="#">
+                    <div class="flex flex-col md:block w-full md:w-64 md:mb-0 mb-2 flex-shrink-0 ">
+                        <img src="../static/img/solar3.jpg" class="w-full h-36 md:h-44 object-cover object-center">
+                    </div>
+                    <!-- NOTICIA 8 - COLUNA TEXTO -->
+                    <div class="md:flex-grow md:pl-6 md:pr-2">
+                        <span class="tracking-widest text-xs title-font font-medium text-white mb-1 bg-colora px-2 md:py-0.5">CATEGORIA</span>
+                        <span class="tracking-wide text-xs title-font font-medium text-gray-400 mb-1 pl-2">Publicado em 26/02/2021</span>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2 md:pt-2">Bitters hashtag waistcoat fashion axe </h2>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NOTICIA 9 -->    
+                <div class="flex flex-wrap md:flex-nowrap pt-2 pb-3 px-2 md:py-4 border md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-2 border-gray-200 hover:text-gray-900">
+                    <!-- NOTICIA 9 - COLUNA IMG -->
+                    <a href="#">
+                    <div class="flex flex-col md:block w-full md:w-64 md:mb-0 mb-2 flex-shrink-0 ">
+                        <img src="../static/img/solar4.jpg" class="w-full h-36 md:h-44 object-cover object-center">
+                    </div>
+                    <!-- NOTICIA 9 - COLUNA TEXTO -->
+                    <div class="md:flex-grow md:pl-6 md:pr-2">
+                        <span class="tracking-widest text-xs title-font font-medium text-white mb-1 bg-colora px-2 md:py-0.5">CATEGORIA</span>
+                        <span class="tracking-wide text-xs title-font font-medium text-gray-400 mb-1 pl-2">Publicado em 26/02/2021</span>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2 md:pt-2">Bitters hashtag waistcoat fashion axe </h2>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork.</p>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- NOTICIA 10 -->    
+                <div class="flex flex-wrap md:flex-nowrap pt-2 pb-3 px-2 md:py-4 border md:border-l-0 md:border-r-0 md:border-t-0 md:border-b-0 border-gray-200 hover:text-gray-900">
+                    <!-- NOTICIA 10 - COLUNA IMG -->
+                    <a href="#">
+                    <div class="flex flex-col md:block w-full md:w-64 md:mb-0 mb-2 flex-shrink-0 ">
+                        <img src="../static/img/solar5.jpg" class="w-full h-36 md:h-44 object-cover object-center">
+                    </div>
+                    <!-- NOTICIA 10 - COLUNA TEXTO -->
+                    <div class="md:flex-grow md:pl-6 md:pr-2">
+                        <span class="tracking-widest text-xs title-font font-medium text-white mb-1 bg-colora px-2 md:py-0.5">CATEGORIA</span>
+                        <span class="tracking-wide text-xs title-font font-medium text-gray-400 mb-1 pl-2">Publicado em 26/02/2021</span>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2 md:pt-2">Bitters hashtag waistcoat fashion axe </h2>
+                        <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork.</p>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div> <!-- FIM QUADRO PRINCIPAL DE NOTICIAS -->
+
+            <!-- QUADRO LATERAL DE NOTICIAS -->
+            <div class="lg:row-span-10">
+
+                <!-- 1º QUADRO LATERAL DE NOTICIAS -->
+                <div class="flex items-center bg-colorc text-white uppercase py-1 font-medium">
+                    <svg class="w-6 h-6 mx-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                      </svg>
+                      <span class="tracking-wider">Mais lidas</span>
+                </div>
+
+                <div class="mb-4 pt-1 pb-3 text-gray-700 pr-1 bg-white border border-t-0 md:border-none border-gray-200 md:shadow">
+                    <!-- LISTA DE NOTICIAS 1º QUADRO LATERAL-->
+                    <ol class="list-none">
+                        <a href="#" class="hover:text-gray-900">
+                        <li class="flex items-center py-3">
+                            <span class="p-3 text-2xl font-bold italic">1.</span>
+                            <span class="font-medium tracking-wide">Setor solar fotovoltaico tem oportunidades de negócios em projetos públicos no País</span></li>
+                        </a>
+
+                        <a href="#" class="hover:text-gray-900">
+                            <li class="flex items-center py-3">
+                                <span class="p-3 text-2xl font-bold italic">2.</span>
+                                <span class="font-medium tracking-wide">Bitters hashtag waistcoat fashion axe.</span></li>
+                        </a>
+
+                        <a href="#" class="hover:text-gray-900">
+                            <li class="flex items-center py-3">
+                                <span class="p-3 text-2xl font-bold italic">3.</span>
+                                <span class="font-medium tracking-wide">Lorem ipsum dolor sit amet, consectetur elit. Praesent euismod ultrices ante.</span></li>
+                        </a>
+
+                        <a href="#" class="hover:text-gray-900">
+                            <li class="flex items-center py-3">
+                                <span class="p-3 text-2xl font-bold italic">4.</span>
+                                <span class="font-medium tracking-wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</span></li>
+                        </a>
+
+                        <a href="#" class="hover:text-gray-900">
+                            <li class="flex items-center py-3">
+                                <span class="p-3 text-2xl font-bold italic">5.</span>
+                                <span class="font-medium tracking-wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</span></li>
+                        </a>
+
+                        <a href="#" class="hover:text-gray-900">
+                            <li class="flex items-center py-3">
+                                <span class="p-3 text-2xl font-bold italic">6.</span>
+                                <span class="font-medium tracking-wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</span></li>
+                        </a>
+
+                      </ol> 
+                </div> <!-- FIM 1º QUADRO LATERAL DE NOTICIAS -->
+
+                <!-- 2º QUADRO LATERAL DE NOTICIAS -->
+                <div class="">
+                    <div class="flex items-center bg-colord text-white uppercase py-1 font-medium">
+                        <svg class="w-6 h-6 mx-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          <span class="tracking-wider">Investimentos</span>
+                    </div>
+
+                    <!-- LISTA DE NOTICIAS 2º QUADRO LATERAL -->
+                    <div class="text-gray-700 bg-white border border-t-0 md:border-none border-gray-200 md:shadow">
+
+                        <ul class="pt-3 pb-1 px-1">
+                            <a href="#" class="hover:text-gray-900">
+                                <li class="flex items-center mb-3">
+                                    <img class="w-28 h-28 object-center object-cover" src="../static/img/solar7.jpg">
+                                    <span class="pl-2 font-medium text-lg text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</span>
+                                </li>
+                            </a>
+
+                            <a href="#" class="hover:text-gray-900">
+                                <li class="flex items-center my-3">
+                                    <img class="w-28 h-28 object-center object-cover" src="../static/img/solar6.jpg">
+                                    <span class="pl-2 font-medium text-lg text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</span>
+                                </li>
+                            </a>
+
+                            <a href="#" class="hover:text-gray-900">
+                                <li class="flex items-center my-3">
+                                    <img class="w-28 h-28 object-center object-cover" src="../static/img/solar5.jpg">
+                                    <span class="pl-2 font-medium text-lg text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</span>
+                                </li>
+                            </a>
+
+                            <a href="#" class="hover:text-gray-900">
+                                <li class="flex items-center my-3">
+                                    <img class="w-28 h-28 object-center object-cover" src="../static/img/solar4.jpg">
+                                    <span class="pl-2 font-medium text-lg text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</span>
+                                </li>
+                            </a>
+
+                            <a href="#" class="hover:text-gray-900">
+                                <li class="flex items-center my-3">
+                                    <img class="w-28 h-28 object-center object-cover" src="../static/img/solar3.jpg">
+                                    <span class="pl-2 font-medium text-lg text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</span>
+                                </li>
+                            </a>
+
+                            <a href="#" class="hover:text-gray-900">
+                                <li class="flex items-center my-3">
+                                    <img class="w-28 h-28 object-center object-cover" src="../static/img/solar2.jpg">
+                                    <span class="pl-2 font-medium text-lg text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod ultrices ante.</span>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+
+                    <!-- INSCREVA-SE - QUADRO LATERAL -->
+                    <div class="bg-colorc my-4 px-6 py-20 flex flex-col flex-wrap justify-center content-center items-center md:shadow">
+                        <svg class="w-14 h-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                          </svg>
+                        <div class=" m-0 p-0 text-3xl text-white text-center">
+                            Fique por dentro!
+                        </div>
+                        <div class=" m-0 p-0 text-xl text-white text-center">Inscreva-se em nossa lista</div>
+                        <div class=" mt-3 flex flex-row flex-wrap">
+                          <input type="text" class="text-gray-700 w-2/3 p-2 rounded-l-lg" placeholder="meu@email.com">
+                          <button class="p-2 w-1/3 bg-colora rounded-r-lg text-white hover:bg-colord" type="button">Cadastrar</button>
+                        </div>
+                    </div>
+
+                </div>           
+
+            </div><!-- FIM QUADRO LATERAL DE NOTICIAS -->
+
+        </div><!-- FIM CONTEÚDO -->
+
+    </div><!-- FIM CONTENT WRAPPER -->
+
+</main>
+
+<!-- INICIO RODAPÉ -->
+<footer class="text-white body-font bg-colora mt-10">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a href="#" class="flex title-font font-medium items-center md:justify-start justify-center hover:text-colord">
+        <svg class="h-8 w-8 mr-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <span class="text-lg"><span class="font-bold">tudo</span>sobre<span class="font-bold">solar</span></span>
+      </a>
+      <p class="text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 TudoSobreSolar</p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a href="#" class="hover:text-colord p-2">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a href="#" class="hover:text-colord p-2">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a href="#" class="hover:text-colord p-2">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a href="#" class="hover:text-colord p-2">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+</footer> <!-- FIM RODAPÉ -->
+
+<!-- SCRIPTS -->
+<script src="../static/js/navbar.js"></script>
+
+</body>
+</html>
